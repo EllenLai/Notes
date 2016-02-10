@@ -23,6 +23,8 @@ ___________________________
 
 NESTED IF AND EXCEL STATEMENTS
 
+=IF(AND(B8>=$B$5,C8>=2),B8*10%,IF(B8<500,0,B8*5%))
+
 =IF(AND(H14>=1,H14<=10),0.01,IF(AND(H14>=11,H14<=20),0.02, IF(AND(H14>=21),0.03)))
 
 ___________________________
@@ -43,4 +45,5 @@ Approximate_Match
 Optional. Enter FALSE to find an exact match. Enter TRUE to find an approximate match. If this parameter is omitted, TRUE is the default.
 
 _____________________________
+
 
